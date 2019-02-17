@@ -19,7 +19,7 @@ spec:
         io.kompose.service: php-host
     spec:
       containers:
-      - image: ssavov/php:test
+      - image: ssavov/php:%IMAGE-PLACEHOLDER%
         name: php-host
         ports:
         - containerPort: 9000
