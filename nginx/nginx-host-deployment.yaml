@@ -19,7 +19,7 @@ spec:
         io.kompose.service: nginx-host
     spec:
       containers:
-      - image: ssavov/nginx:test
+      - image: ssavov/nginx:%IMAGE-PLACEHOLDER%
         name: nginx-host
         ports:
         - containerPort: 80
