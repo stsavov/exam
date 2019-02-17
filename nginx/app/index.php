@@ -8,7 +8,7 @@
 	$client = new Predis\Client([
 		'scheme' => 'tcp',
       'host'   => $redishost,
-      'port'   => 6379,
+      'port'   => 31111,
 	]);
 
 	$tools = array
